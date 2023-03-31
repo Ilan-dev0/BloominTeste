@@ -16,7 +16,7 @@
     --c-brand-light:  	#b46a6a;
     --c-brand-rgb: 86, 50 , 50;
     --c-body: #727272;
-    --font-base: "ClashDisplay", sans-serif;
+    --font-base: "Poppins", sans-serif;
     --box-shadow: 0px 15px 25px rgba(0,0,0,0.08);
     --transition: all 0.5s ease;
 }
