@@ -122,6 +122,12 @@ img {
     background-size: cover;
 }
 
+#company {
+    background: linear-gradient(rgba(var(--c-brand-rgb), 0.507), rgba(var(--c-brand-rgb), 0.438)), url(../images/company.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
 
 /* SECTION TITLE */
 .section-title {
@@ -289,3 +295,20 @@ footer .line {
     background-color: var(--c-brand);
     color: white;
 }
+
+/* Estilos para o mapa responsivo */
+.map-responsive {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+
+.map-responsive iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
